@@ -1,0 +1,142 @@
+[
+    {
+      "date": "",
+      "listname": "Competitive Inteligence",
+      "noOfentities": 0,
+      "actions": [
+        {
+          "post": "P",
+          "share": "S",
+          "edit": "E",
+          "delete": "D"
+        }
+      ],
+      "details": "Details"
+    },
+    {
+      "date": "",
+      "listname": "My Vendors",
+      "noOfentities": 0,
+      "actions": [
+        {
+          "post": "P",
+          "share": "S",
+          "edit": "E",
+          "delete": "D"
+        }
+      ],
+      "details": "Details"
+    },
+    {
+      "date": "",
+      "listname": "My Customers",
+      "noOfentities": 0,
+      "actions": [
+        {
+          "post": "P",
+          "share": "S",
+          "edit": "E",
+          "delete": "D"
+        }
+      ],
+      "details": "Details"
+    },
+    {
+      "date": "Jul 23",
+      "listname": "Test_30_results",
+      "noOfentities": 28,
+      "actions": [
+        {
+          "post": "P",
+          "share": "S",
+          "edit": "E",
+          "delete": "D"
+        }
+      ],
+      "details": "Details"
+    },
+    {
+      "date": "Jun 28",
+      "listname": "To_index",
+      "noOfentities": 100,
+      "actions": [
+        {
+          "post": "P",
+          "share": "S",
+          "edit": "E",
+          "delete": "D"
+        }
+      ],
+      "details": "Details"
+    },
+    {
+      "date": "Apr 10",
+      "listname": "KPMG Requested Companies - Listed Set_Prasada Kumar",
+      "noOfentities": 34,
+      "actions": [
+        {
+          "post": "P",
+          "share": "S",
+          "edit": "E",
+          "delete": "D"
+        }
+      ],
+      "details": "Details"
+    },
+    {
+      "date": "Mar 12",
+      "listname": "Error Case-LTB to EBITDA Blank_Prasada Kumar",
+      "noOfentities": 24,
+      "actions": [
+        {
+          "post": "P",
+          "share": "S",
+          "edit": "E",
+          "delete": "D"
+        }
+      ],
+      "details": "Details"
+    },
+    {
+      "date": "Dec 14",
+      "listname": "Two Companies",
+      "noOfentities": 2,
+      "actions": [
+        {
+          "post": "P",
+          "share": "S",
+          "edit": "E",
+          "delete": "D"
+        }
+      ],
+      "details": "Details"
+    },
+    {
+      "date": "Nov 01",
+      "listname": "Custom",
+      "noOfentities": 30,
+      "actions": [
+        {
+          "post": "P",
+          "share": "S",
+          "edit": "E",
+          "delete": "D"
+        }
+      ],
+      "details": "Details"
+    },
+    {
+      "date": "Oct 29",
+      "listname": "Mumbai",
+      "noOfentities": 3,
+      "actions": [
+        {
+          "post": "P",
+          "share": "S",
+          "edit": "E",
+          "delete": "D"
+        }
+      ],
+      "details": "Details"
+    }
+  ]

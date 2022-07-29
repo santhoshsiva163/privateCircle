@@ -1,0 +1,20 @@
+<div class="container-fluid p-0">
+  <div class="row">
+    <div class="col-md-12">
+      <app-dashboard-header  (filterValue_Tablecomp)='sendHeaderValue($event)'></app-dashboard-header>
+    </div>
+  </div>
+  <div class="row">
+    <div [ngClass]="sidePanelVisible ? 'col-md-8' : 'col-md-12'">
+      <ng-container  *ngIf="tableData != null">
+        <app-table [gridData]="tableData" [searchedValue]="searchedHeaderValue" [headerData]="colData" (selectedRow)="getRowDetails()">
+        </app-table>
+      </ng-container>
+    </div>
+    <div class="col-md-4" *ngIf="sidePanelVisible">
+      <ng-container>
+          <app-detail-panel [checkSearchValueExist]="searchedHeaderValue"></app-detail-panel>
+      </ng-container>
+    </div>
+  </div>
+</div>

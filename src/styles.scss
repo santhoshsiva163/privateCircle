@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { 
+    height: 100%; 
+}
+body {
+    margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif; 
+    overflow-x: hidden !important;
+}
+table {
+    width: 100%;
+}
+table {
+    thead {
+        tr {
+            th {
+                font-size: 12px !important;
+                color: #959191 !important;
+                font-weight: bold;
+                text-shadow: none !important;
+                border-bottom: 1px solid #dee2e6 !important;
+            }
+        }
+    }
+}

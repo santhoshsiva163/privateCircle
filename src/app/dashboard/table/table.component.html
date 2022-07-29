@@ -1,0 +1,34 @@
+<div class="table-responsive">
+    <table class="table table-hover">
+        <thead>
+          <tr>
+            <ng-container *ngFor="let key of columnData;">
+              <th scope="col"> 
+                  {{key.name}}
+              </th>
+            </ng-container>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let record of data | searchByListName : searchedValue; let i = index">
+            <ng-container *ngIf="record.date == 0 else showdate">
+              <td>
+                <img src="../../../assets/images/cluster.png" class="dateNotAvailable" alt="Date Not Set" aria-labelledby="Date Not Set" />
+              </td>
+            </ng-container>
+            <ng-template #showdate>
+              <td>{{ record.date }}</td>
+            </ng-template>
+            <td [ngClass]="record.noOfentities == 0 ? 'zeroResults' : ''">{{ record.listname }}</td>
+            <td>{{ record.noOfentities }}</td>
+            <td>
+              <button class="post" value="{{ record.actions.post+i}}"></button>
+              <button *ngIf="record.noOfentities != 0" class="share" value="{{ record.actions.share+i}}" ></button>
+              <button *ngIf="record.noOfentities != 0" class="edit" value="{{ record.actions.edit+i}}" ></button>
+              <button *ngIf="record.noOfentities != 0" class="delete" value="{{ record.actions.delete+i}}" ></button>
+            </td>
+            <td><button class="details_Btn" [attr.id]="i" (click)="getRowData($event);" >{{ record.details }}</button></td>
+          </tr>
+        </tbody>
+    </table>
+</div>

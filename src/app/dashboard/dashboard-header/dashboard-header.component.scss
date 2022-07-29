@@ -1,0 +1,49 @@
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: #0b2744 !important;
+    color:#fff !important;
+    border-radius: 2px;
+}
+
+.nav-pills .nav-link.active:hover {
+    color:#fff !important;
+}
+
+.nav-pills .nav-link, .nav-pills .nav-link:hover {
+    background-color: transparent;
+    text-transform: uppercase;
+    color:#626364 !important;
+    font-size: 12px;
+    text-shadow: none;
+    letter-spacing: 1px;
+}
+
+::placeholder {
+    color: #ccc;
+    font-size:13px;
+    opacity: 1;
+}
+
+.nav-pills .nav-link.active.savedList {
+    background-image: url('../../../assets/images/list-white.png');
+    background-repeat: no-repeat;
+    background-position: 15px;
+    background-size: 13%;
+    padding-left: 45px;
+}
+
+.nav-pills .nav-link.savedFilters {
+    background-image: url('../../../assets/images/filter-gray.png');
+    background-repeat: no-repeat;
+    background-position: 15px;
+    background-size: 13%;
+    padding-left: 45px;
+}
+
+.nav-pills .nav-link.searchHistory {
+    background-image: url('../../../assets/images/history-gray.png');
+    background-repeat: no-repeat;
+    background-position: 15px;
+    background-size: 13%;
+    padding-left: 45px;
+}
